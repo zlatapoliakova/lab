@@ -1,0 +1,210 @@
+.modal__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 40px;
+}
+
+.modal__strong {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--logo-header-black);
+  @media screen and (min-width: 1200px) {
+      line-height: calc(23 / 20);
+    }
+}
+
+.modal__labels {
+  position: relative;
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.modal__labels--comment {
+  margin-bottom: 0;
+}
+
+.modal__titles {
+  margin-bottom: 4px;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transition: transform var(--global-animation);
+  transform: translateY(-50%);
+}
+
+.modal__inputs {
+  padding-left: 35px;
+  width: 100%;
+  height: 40px;
+}
+
+.modal__text-area {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+.modal__inputs:focus,
+.modal__text-area:focus {
+  border-color: #2196f3;
+}
+
+.modal__inputs:focus + .modal__titles,
+.modal__inputs:not(:placeholder-shown) + .modal__titles {
+  transform: translate(-40px, -40px);
+  color: var(--link-hover-text-color);
+}
+
+.modal__inputs:focus ~ .modal__icons,
+.modal__inputs:not(:placeholder-shown) ~ .modal__icons {
+  fill: var(--link-hover-text-color);
+}
+
+.modal__inputs:not(:placeholder-shown),
+.modal__text-area:not(:placeholder-shown) {
+  border-color: #2196f3;
+}
+
+.modal__titles--comment {
+  top: 16px;
+  left: 16px;
+}
+
+.modal__text-area:focus + .modal__titles--comment,
+.modal__text-area:not(:placeholder-shown) + .modal__titles--comment {
+  transform: translate(-16px, -35px);
+  color: var(--link-hover-text-color);
+}
+
+.modal__text-area:not(:focus)::placeholder {
+  opacity: 0;
+}
+
+.modal__labels--terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.modal__inputs,
+.modal__text-area {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+  transition: border-color var(--global-animation);
+}
+
+.modal__text-area::placeholder {
+  transition: opacity var(--global-animation);
+  font-size: 14px;
+  line-height: 0.82;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+/* modal__iconss */
+.modal__icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) scale(1.1);
+  transition: fill var(--global-animation);
+  left: 12px;
+  width: 18px;
+  height: 18px;
+}
+
+.modal__checkbox-orig {
+  appearance: none;
+}
+
+.modal__terms-checkbox {
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+}
+
+.modal__terms-checkbox > .modal__check {
+  opacity: 0;
+  transition: opacity var(--global-animation);
+}
+
+.modal__terms-checkbox > .modal__uncheck {
+  opacity: 1;
+  transition: opacity var(--global-animation), fill var(--global-animation);
+}
+
+.modal__checkbox-orig:focus + .modal__terms-checkbox > .modal__uncheck,
+.modal__checkbox-orig:hover + .modal__terms-checkbox > .modal__uncheck {
+  fill: var(--link-hover-text-color);
+}
+
+.modal__checkbox-orig:checked + .modal__terms-checkbox > .modal__check {
+  opacity: 1;
+}
+
+.modal__checkbox-orig:checked + .modal__terms-checkbox > .modal__uncheck {
+  opacity: 0;
+}
+
+.modal__terms {
+  user-select: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1,167;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  @media screen and (min-width:1200px) {
+    font-size: 14px;
+      line-height: 1.71;
+  }
+}
+
+.modal__terms-of-agreement {
+  color: var(--link-hover-text-color);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.modal__submit {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 0;
+  border: none;
+  background-color: var(--link-hover-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  color: var(--footer__address-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--global-animation);
+  @media screen and (max-width:311px) {
+    margin-top: 10px;
+  }
+  &:hover {
+    background-color: #188ce8;
+  }
+}

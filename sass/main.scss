@@ -1,0 +1,29 @@
+// UTILS
+@import './utils/variables';
+
+
+// BASE
+@import './base/base';
+@import './base/reset';
+
+// COMPONENTS
+@import './components/section';
+@import './components/container';
+@import './components/logo';
+@import './components/nav';
+@import './components/titles';
+@import './components/modal-window';
+@import './components/modal-form';
+@import './components/footer-form';
+@import './components/cards-set';
+@import './components/mobile-menu-header';
+
+// LAYOUT
+@import './layout/header'; 
+@import './layout/hero';
+@import './layout/strengths-group';
+@import './layout/task-section';
+@import './layout/teammates';
+@import './layout/regular-custm';
+@import './layout/footer';
+@import './layout/portfolio-main';

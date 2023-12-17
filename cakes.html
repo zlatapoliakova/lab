@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cakes | SweetParadise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" lang="en" class="logo logo--indent"
+          ><span class="logo__particle">Sweet</span>Paradise</a
+        >
+        <nav class="header__nav">
+          <button class="header__mob-menu-btn" type="button" data-menu-open>
+            <svg class="header__mob-svg">
+              <use href="./photo/svg/icons.svg#mobile-nav-icon"></use>
+            </svg>
+          </button>
+          <ul class="header__menu">
+            <li class="header__item">
+              <a class="header__link" href="./index.html">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link--active" href="./portfolio.html">Sweets</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="./about.html">About us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a class="contacts__link" href="mailto:info@sweetparadise.com">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./photo/svg/icons.svg#envelope"></use>
+              </svg>
+              info@sweetparadise.com
+            </a>
+          </li>
+          <li>
+            <a class="contacts__link" href="tel:+380961111111"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./photo/svg/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="main">
+        <div class="container">
+          <ul class="main__filter">
+            <li>
+              <button class="main__button main__button--current" type="button">All</button>
+            </li>
+            <li>
+              <button class="main__button" type="button">For Birthday</button>
+            </li>
+            <li>
+              <button class="main__button" type="button">Chocolates</button>
+            </li>
+            <li>
+              <button class="main__button" type="button">Cheesecakes</button>
+            </li>
+            <li>
+              <button class="main__button" type="button">Fruitcake</button>
+            </li>
+          </ul>
+
+          <ul class="main__cards">
+            <li class="main__items">
+              <a class="main__link" href="">
+                <div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-1@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-1@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-1@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-1@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-1@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-1@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-1@1x_md.jpg"
+                      lang="en"
+                      alt="Laptop and Website"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Candies</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href="">
+                <div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-2@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-2@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-2@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-2@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-2@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-2@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-2@1x_md.jpg"
+                      lang="en"
+                      alt="Two basketball players playing"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description main__description--other-padd">
+                  <h2 class="main__headline-descrip">Cake Marmalade</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href="">
+                <div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-3@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-3@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-3@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-3@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-3@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-3@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-3@1x_md.jpg"
+                      lang="en"
+                      alt="Seafood restaurant logos"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Cookies</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href="">
+                <div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-4@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-4@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-4@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-4@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-4@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-4@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-4@1x_md.jpg"
+                      lang="en"
+                      alt="Headphones"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Cakes</h2>
+                  <p class="main__subline-descrip">Sweats</p>
+                </div></a
+              >
+            </li>
+            <li class="main__items">
+              <a class="main__link" href=""
+                ><div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-5@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-5@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-5@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-5@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-5@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-5@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-5@1x_md.jpg"
+                      lang="en"
+                      alt="Two box one white
+                    and orange"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Specialty Confections</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href=""
+                ><div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-6@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-6@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-6@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-6@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-6@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-6@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-6@1x_md.jpg"
+                      lang="en"
+                      alt="screen and website"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Pies & Tarts</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="main__items">
+              <a class="main__link" href=""
+                ><div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-7@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-7@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-7@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-7@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-7@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-7@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-7@1x_md.jpg"
+                      lang="en"
+                      alt="magazine"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Decorations & Sprinkles</h2>
+                  <p class="main__subline-descrip">Sweets</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href=""
+                ><div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-8@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-8@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-8@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-8@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-8@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-8@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-8@1x_md.jpg"
+                      lang="en"
+                      alt=" LAB EL TAG label"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Cake</h2>
+                  <p class="main__subline-descrip">Sweet</p>
+                </div>
+              </a>
+            </li>
+            <li class="main__items">
+              <a class="main__link" href=""
+                ><div class="main__overlay-head">
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set-details/img-9@1x_lg.jpg 1x,
+                        ./photo/card-set-details/img-9@2x_lg.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set-details/img-9@1x_md.jpg 1x,
+                        ./photo/card-set-details/img-9@2x_md.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set-details/img-9@1x_sm.jpg 1x,
+                        ./photo/card-set-details/img-9@2x_sm.jpg 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set-details/img-9@1x_md.jpg"
+                      lang="en"
+                      alt="man using laptop and Growing Buisness app"
+                    />
+                  </picture>
+                  <div class="main__overlat-part">
+                    <p class="main__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+                      alias autem adipisci voluptas amet ipsum vitae ratione, culpa, minus
+                      architecto delectus cumque accusantium pariatur excepturi similique eaque
+                      libero hic.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="main__description">
+                  <h2 class="main__headline-descrip">Cake Growing Business</h2>
+                  <p class="main__subline-descrip">Sweet</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__tablet-container">
+          <div class="address-container">
+            <a href="./index.html" lang="en" class="logo footer__logo">
+              <span class="footer__logo footer__logo--blue-part">Sweet</span>Paradise
+            </a>
+
+            <address class="footer__info">
+              <p class="footer__location">Kramatorsk, 56 Yuvileyna St</p>
+              <ul class="footer__contacts">
+                <li class="footer__mail">
+                  <a class="footer__link" href="mailto:info@sweetparadise.com"
+                    >info@sweetparadise.com
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="footer__wrap-networks">
+            <h2 class="footer__title">Join us</h2>
+            <ul class="footer__networks">
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#instagram"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#twitter"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#facebook"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="footer__form">
+          <div>
+            <strong class="footer__title">Sign up for the newsletter</strong>
+            <input class="footer__input" name="email" type="email" placeholder="Email" />
+          </div>
+          <button class="footer__btn" type="submit">
+            <span class="footer__text">Subscribe</span
+            ><svg class="footer__icon">
+              <use href="./photo/svg/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Mobile menu header -->
+    <div class="mobile-menu" data-menu>
+      <!-- mob menu nav -->
+      <button class="mobile-menu__close-btn" type="button" data-menu-close>
+        <svg class="mobile-menu__close-svg">
+          <use href="./photo/svg/icons.svg#close-mobile"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu__nav">
+        <li class="mobile-menu__items-nav">
+          <a href="./index.html" class="mobile-menu__links-nav mobile-menu__links-nav--active"
+            >Home</a
+          >
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="./portfolio.html" class="mobile-menu__links-nav">Sweets</a>
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="" class="mobile-menu__links-nav">About us </a>
+        </li>
+      </ul>
+      <div>
+        <!-- mob menu contacts -->
+        <ul class="mobile-menu__contacts">
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="mailto:info@sweetparadise.com"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--email"
+              >info@sweetparadise.com</a
+            >
+          </li>
+        </ul>
+        <!-- mob menu networks -->
+        <ul class="mobile-menu__networks">
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Instagram</a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Twitter </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Facebook </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">LinkedIn </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./scripts/mobile-menu.js"></script>
+  </body>
+</html>

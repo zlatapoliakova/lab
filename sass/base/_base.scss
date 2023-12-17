@@ -1,0 +1,8 @@
+body {
+    font-family: var(--main-font);
+    &.no-scroll{
+        @media screen and (max-width:767px) {
+                overflow: hidden;
+        }
+    }
+}

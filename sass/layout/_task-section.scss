@@ -1,0 +1,43 @@
+// TASK SECTION -----
+.task-section {
+    padding-top: 0;
+@media screen and (max-width:1199px) {
+    display: none;
+    
+}
+
+
+&__item {
+    position: relative;
+}
+&__img{
+    max-width: 100%;
+    height: auto;
+}
+
+&__wrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+&__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer__address-hover);
+}
+
+&__list {
+    display: flex;
+    gap: 30px;
+}
+}

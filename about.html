@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | SweetParadise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" lang="en" class="logo logo--indent"
+          ><span class="logo__particle">Sweet</span>Paradise</a
+        >
+        <nav class="header__nav">
+          <button class="header__mob-menu-btn" type="button" data-menu-open>
+            <svg class="header__mob-svg">
+              <use href="./photo/svg/icons.svg#mobile-nav-icon"></use>
+            </svg>
+          </button>
+          <ul class="header__menu">
+            <li class="header__item">
+              <a class="header__link" href="./index.html">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="./portfolio.html">Sweets</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link--active" href="./about.html">About us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a class="contacts__link" href="mailto:info@sweetparadise.com">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./photo/svg/icons.svg#envelope"></use>
+              </svg>
+              info@sweetparadise.com
+            </a>
+          </li>
+          <li>
+            <a class="contacts__link" href="tel:+380961111111"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./photo/svg/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--  -->
+      <section class="strengths-group section">
+        <div class="container">
+          <ul class="strengths-group__list">
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#antenna"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">ATTENTION TO DETAIL</h3>
+              <p class="strengths-group__subtext">
+                Focusing on nuances, initiating creative work, and cultivating a distinctive style.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#clock"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">PUNCTUALITY</h3>
+              <p class="strengths-group__subtext">
+                Organizational aspects, particularly in training personnel, carry significant
+                importance.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#diagram"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">PRODUCTION PLANNING</h3>
+              <p class="strengths-group__subtext">
+                Consultation with a wide range of experts significantly influences this process.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#astronaut"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">INNOVATION AND TECHNOLOGY</h3>
+              <p class="strengths-group__subtext">
+                The significance of modern technologies is so great that they determine the
+                accomplishment of planned tasks.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--  -->
+
+      <!--   -->
+      <section class="teammates section">
+        <div class="container">
+          <h2 class="headline">Our team</h2>
+          <ul class="teammates__list">
+            <li class="teammates__item">
+              <picture
+                ><source
+                  media="(min-width:1200px )"
+                  srcset="./photo/team/img-1@1x_lg.jpg 1x, ./photo/team/img-1@2x_lg.jpg 2x" />
+                <source
+                  media="(min-width:768px )"
+                  srcset="./photo/team/img-1@1x_md.jpg 1x, ./photo/team/img-1@2x_md.jpg 2x" />
+                <source
+                  media="(max-width:767px)"
+                  srcset="./photo/team/img-1@1x_sm.jpg 1x, ./photo/team/img-1@2x_sm.jpg 2x" />
+                <img class="teammates__img" src="./photo/team/img-1@1x_lg.jpg" alt="Teammate, male"
+              /></picture>
+
+              <div class="teammates__decription">
+                <h3 class="teammates__name">Liam Carter</h3>
+                <p class="teammates__text" lang="en">Product Designer</p>
+                <ul class="teammates__networks">
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="teammates__item">
+              <picture
+                ><source
+                  media="(min-width:1200px )"
+                  srcset="./photo/team/img-2@1x_lg.jpg 1x, ./photo/team/img-2@2x_lg.jpg 2x" />
+                <source
+                  media="(min-width:768px )"
+                  srcset="./photo/team/img-2@1x_md.jpg 1x, ./photo/team/img-2@2x_md.jpg 2x" />
+                <source
+                  media="(max-width:767px)"
+                  srcset="./photo/team/img-2@1x_sm.jpg 1x, ./photo/team/img-2@2x_sm.jpg 2x" />
+                <img
+                  class="teammates__img"
+                  src="./photo/team/img-2@1x_lg.jpg"
+                  alt="Участник команды, женщина"
+              /></picture>
+
+              <div class="teammates__decription">
+                <h3 class="teammates__name">Maya Rodriguez</h3>
+                <p class="teammates__text" lang="en">Chief Technologist</p>
+                <ul class="teammates__networks">
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="teammates__item">
+              <picture
+                ><source
+                  media="(min-width:1200px )"
+                  srcset="./photo/team/img-3@1x_lg.jpg 1x, ./photo/team/img-3@2x_lg.jpg 2x" />
+                <source
+                  media="(min-width:768px )"
+                  srcset="./photo/team/img-3@1x_md.jpg 1x, ./photo/team/img-3@2x_md.jpg 2x" />
+                <source
+                  media="(max-width:767px)"
+                  srcset="./photo/team/img-3@1x_sm.jpg 1x, ./photo/team/img-3@2x_sm.jpg 2x" />
+                <img class="teammates__img" src="./photo/team/img-3@1x_lg.jpg" alt="Teammate, male"
+              /></picture>
+
+              <div class="teammates__decription">
+                <h3 class="teammates__name">Mark Thompson</h3>
+                <p class="teammates__text" lang="en">Marketing</p>
+                <ul class="teammates__networks">
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="teammates__item">
+              <picture
+                ><source
+                  media="(min-width:1200px )"
+                  srcset="./photo/team/img-4@1x_lg.jpg 1x, ./photo/team/img-4@2x_lg.jpg 2x" />
+                <source
+                  media="(min-width:768px )"
+                  srcset="./photo/team/img-4@1x_md.jpg 1x, ./photo/team/img-4@2x_md.jpg 2x" />
+                <source
+                  media="(max-width:767px)"
+                  srcset="./photo/team/img-4@1x_sm.jpg 1x, ./photo/team/img-4@2x_sm.jpg 2x" />
+                <img class="teammates__img" src="./photo/team/img-4@1x_lg.jpg" alt="Teammate, male"
+              /></picture>
+
+              <div class="teammates__decription">
+                <h3 class="teammates__name">Lucas Bennett</h3>
+                <p class="teammates__text" lang="en">Quality and Control</p>
+                <ul class="teammates__networks">
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="teammates__item-network">
+                    <a href="" class="teammates__link">
+                      <svg class="teammates__svg">
+                        <use href="./photo/svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="regular-custm section">
+        <div class="container">
+          <h2 class="headline">Our regular customers</h2>
+          <ul class="regular-custm__logos">
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link"
+                ><svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-1"></use></svg
+              ></a>
+            </li>
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link">
+                <svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-2"></use></svg
+              ></a>
+            </li>
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link">
+                <svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-3"></use></svg
+              ></a>
+            </li>
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link">
+                <svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-4"></use></svg
+              ></a>
+            </li>
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link">
+                <svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-5"></use></svg
+              ></a>
+            </li>
+            <li class="regular-custm__logos-item">
+              <a href="" class="regular-custm__logos-link">
+                <svg class="regular-custm__logos-svg">
+                  <use href="./photo/svg/icons.svg#logo-6"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__tablet-container">
+          <div class="address-container">
+            <a href="./index.html" lang="en" class="logo footer__logo">
+              <span class="footer__logo footer__logo--blue-part">Sweet</span>Paradise
+            </a>
+
+            <address class="footer__info">
+              <p class="footer__location">Kramatorsk, 56 Yuvileyna St</p>
+              <ul class="footer__contacts">
+                <li class="footer__mail">
+                  <a class="footer__link" href="mailto:info@sweetparadise.com"
+                    >info@sweetparadise.com
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="footer__wrap-networks">
+            <h2 class="footer__title">Join us</h2>
+            <ul class="footer__networks">
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#instagram"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#twitter"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#facebook"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="footer__form">
+          <div>
+            <strong class="footer__title">Sign up for the newsletter</strong>
+            <input class="footer__input" name="email" type="email" placeholder="Email" />
+          </div>
+          <button class="footer__btn" type="submit">
+            <span class="footer__text">Subscribe</span
+            ><svg class="footer__icon">
+              <use href="./photo/svg/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Mobile menu header -->
+    <div class="mobile-menu" data-menu>
+      <!-- mob menu nav -->
+      <button class="mobile-menu__close-btn" type="button" data-menu-close>
+        <svg class="mobile-menu__close-svg">
+          <use href="./photo/svg/icons.svg#close-mobile"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu__nav">
+        <li class="mobile-menu__items-nav">
+          <a href="./index.html" class="mobile-menu__links-nav mobile-menu__links-nav--active"
+            >Home</a
+          >
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="./portfolio.html" class="mobile-menu__links-nav">Sweets</a>
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="" class="mobile-menu__links-nav">About us </a>
+        </li>
+      </ul>
+      <div>
+        <!-- mob menu contacts -->
+        <ul class="mobile-menu__contacts">
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="mailto:info@sweetparadise.com"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--email"
+              >info@sweetparadise.com</a
+            >
+          </li>
+        </ul>
+        <!-- mob menu networks -->
+        <ul class="mobile-menu__networks">
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Instagram</a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Twitter </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Facebook </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">LinkedIn </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./scripts/mobile-menu.js"></script>
+  </body>
+</html>

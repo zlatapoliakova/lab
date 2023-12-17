@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" lang="en" class="logo logo--indent"
+          ><span class="logo__particle">Sweet</span>Paradise</a
+        >
+        <nav class="header__nav">
+          <button class="header__mob-menu-btn" type="button" data-menu-open>
+            <svg class="header__mob-svg">
+              <use href="./photo/svg/icons.svg#mobile-nav-icon"></use>
+            </svg>
+          </button>
+          <ul class="header__menu">
+            <li class="header__item">
+              <a class="header__link header__link--active" href="./index.html">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="./portfolio.html">Sweets</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="./about.html">About us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a class="contacts__link" href="mailto:info@sweetparadise.com">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./photo/svg/icons.svg#envelope"></use>
+              </svg>
+              info@sweetparadise.com
+            </a>
+          </li>
+          <li>
+            <a class="contacts__link" href="tel:+380961111111"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./photo/svg/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--  -->
+      <section class="hero section">
+        <div class="container">
+          <h1 class="hero__headline">UNIQUE CONCEPTS FOR YOUR SWEET WORLD</h1>
+          <button class="hero__button" type="button" data-modal-open>Order the service</button>
+        </div>
+      </section>
+      <!--  -->
+      <section class="strengths-group section">
+        <div class="container">
+          <ul class="strengths-group__list">
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#antenna"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">ATTENTION TO DETAIL</h3>
+              <p class="strengths-group__subtext">
+                Focusing on nuances, initiating creative work, and cultivating a distinctive style.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#clock"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">PUNCTUALITY</h3>
+              <p class="strengths-group__subtext">
+                Organizational aspects, particularly in training personnel, carry significant
+                importance.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#diagram"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">Convenient use</h3>
+              <p class="strengths-group__subtext">
+                Consultation with a wide range of experts significantly influences this process.
+              </p>
+            </li>
+            <li class="strengths-group__item">
+              <div class="strengths-group__icon">
+                <svg class="strengths-icon"><use href="./photo/svg/icons.svg#astronaut"></use></svg>
+              </div>
+              <h3 class="strengths-group__headline">Fast shipping</h3>
+              <p class="strengths-group__subtext">
+                The significance of modern technologies is so great that they determine the
+                accomplishment of planned tasks.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--  -->
+      <section class="task-section section">
+        <div class="container">
+          <h2 class="headline">What we do</h2>
+          <ul class="task-section__list">
+            <li class="task-section__item">
+              <img
+                class="task-section__img"
+                srcset="
+                  ./photo/task-section/img-1@1x_lg.jpg 1x,
+                  ./photo/task-section/img-1@2x_lg.jpg 2x
+                "
+                width="370"
+                height="290"
+                src="./photo/task-section/img-1@1x_lg.jpg"
+                alt="image"
+              />
+              <div class="task-section__wrapper">
+                <h3 class="task-section__text">All kinds of sweets</h3>
+              </div>
+            </li>
+            <li class="task-section__item">
+              <img
+                class="task-section__img"
+                srcset="
+                  ./photo/task-section/img-2@1x_lg.jpg 1x,
+                  ./photo/task-section/img-2@2x_lg.jpg 2x
+                "
+                width="370"
+                height="290"
+                src="./photo/task-section/img-2@1x_lg.jpg"
+                alt="image"
+              />
+              <div class="task-section__wrapper">
+                <h3 class="task-section__text">Birthday cakes</h3>
+              </div>
+            </li>
+            <li class="task-section__item">
+              <img
+                class="task-section__img"
+                srcset="
+                  ./photo/task-section/img-3@1x_lg.jpg 1x,
+                  ./photo/task-section/img-3@2x_lg.jpg 2x
+                "
+                width="370"
+                height="290"
+                src="./photo/task-section/img-3@1x_lg.jpg"
+                alt="image"
+              />
+              <div class="task-section__wrapper">
+                <h3 class="task-section__text">Marmalade</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--   -->
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__tablet-container">
+          <div class="address-container">
+            <a href="./index.html" lang="en" class="logo footer__logo">
+              <span class="footer__logo footer__logo--blue-part">Sweet</span>Paradise
+            </a>
+
+            <address class="footer__info">
+              <p class="footer__location">Kramatorsk, 56 Yuvileyna St</p>
+              <ul class="footer__contacts">
+                <li class="footer__mail">
+                  <a class="footer__link" href="mailto:info@sweetparadise.com"
+                    >info@sweetparadise.com
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="footer__wrap-networks">
+            <h2 class="footer__title">Join us</h2>
+            <ul class="footer__networks">
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#instagram"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#twitter"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#facebook"></use></svg
+                ></a>
+              </li>
+              <li>
+                <a class="footer__links" href=""
+                  ><svg class="footer__svg">
+                    <use href="./photo/svg/icons.svg#linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="footer__form">
+          <div>
+            <strong class="footer__title">Sign up for the newsletter</strong>
+            <input class="footer__input" name="email" type="email" placeholder="Email" />
+          </div>
+          <button class="footer__btn" type="submit">
+            <span class="footer__text">Subscribe</span
+            ><svg class="footer__icon">
+              <use href="./photo/svg/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Mobile menu header -->
+    <div class="mobile-menu" data-menu>
+      <!-- mob menu nav -->
+      <button class="mobile-menu__close-btn" type="button" data-menu-close>
+        <svg class="mobile-menu__close-svg">
+          <use href="./photo/svg/icons.svg#close-mobile"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu__nav">
+        <li class="mobile-menu__items-nav">
+          <a href="./index.html" class="mobile-menu__links-nav mobile-menu__links-nav--active"
+            >Home</a
+          >
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="./portfolio.html" class="mobile-menu__links-nav">Sweets</a>
+        </li>
+        <li class="mobile-menu__items-nav">
+          <a href="" class="mobile-menu__links-nav">About us </a>
+        </li>
+      </ul>
+      <div>
+        <!-- mob menu contacts -->
+        <ul class="mobile-menu__contacts">
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__items-contacts">
+            <a
+              href="mailto:info@sweetparadise.com"
+              class="mobile-menu__links-contacts mobile-menu__links-contacts--email"
+              >info@sweetparadise.com</a
+            >
+          </li>
+        </ul>
+        <!-- mob menu networks -->
+        <ul class="mobile-menu__networks">
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Instagram</a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Twitter </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">Facebook </a>
+          </li>
+          <li class="mobile-menu__items-networks">
+            <a href="" class="mobile-menu__links-networks">LinkedIn </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__btn-close" type="button" data-modal-close>
+          <svg class="modal__icon">
+            <use href="./photo/svg/icons.svg#close-btn-modal"></use>
+          </svg>
+        </button>
+
+        <form class="modal__form" name="form">
+          <strong class="modal__strong">Leave your details and we'll call you back</strong>
+
+          <label class="modal__labels"
+            ><input name="name" class="modal__inputs" type="text" placeholder=" " /><span
+              class="modal__titles"
+              >Name</span
+            >
+            <svg class="modal__icons">
+              <use href="./photo/svg/icons.svg#username-form"></use></svg
+          ></label>
+          <label class="modal__labels"
+            ><input
+              name="tel"
+              class="modal__inputs"
+              type="tel"
+              minlength="12"
+              maxlength="12"
+              placeholder=" " /><span class="modal__titles">Phone</span>
+            <svg class="modal__icons">
+              <use href="./photo/svg/icons.svg#phone-form"></use></svg
+          ></label>
+          <label class="modal__labels"
+            ><input name="email" class="modal__inputs" type="email" placeholder=" " /><span
+              class="modal__titles"
+              >Email</span
+            >
+            <svg class="modal__icons">
+              <use href="./photo/svg/icons.svg#email-form"></use></svg
+          ></label>
+          <label class="modal__labels modal__labels--comment">
+            <textarea
+              name="comment"
+              class="modal__text-area"
+              placeholder="Enter the text"
+            ></textarea
+            ><span class="modal__titles modal__titles--comment">Comment</span>
+          </label>
+
+          <label class="modal__labels modal__labels--terms">
+            <input class="modal__checkbox-orig" type="checkbox" name="agreement-terms-check" />
+            <svg class="modal__terms-checkbox">
+              <use class="modal__uncheck" href="./photo/svg/icons.svg#form-box-uncheck"></use>
+              <use class="modal__check" href="./photo/svg/icons.svg#icon-check"></use>
+            </svg>
+            <span class="modal__terms"
+              >I accept the newsletter and accept
+              <a class="modal__terms-of-agreement" href="">Contract terms and conditions.</a>
+            </span>
+          </label>
+          <button class="modal__submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
+  </body>
+</html>
